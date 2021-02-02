@@ -27,4 +27,5 @@ def sub():
     a= 2-2
     return str(a)
 
-app.run()
+if __name__=="__main__":
+    app.run()
