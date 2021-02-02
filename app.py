@@ -2,8 +2,7 @@ from flask import Flask, jsonify , request
 
 app = Flask(__name__)
 
-number= 2
-@app.route('/a')
+@app.route('/')
 def hello():
     return "<h1>WELCOME TO THE WORLD OF MATHEMATICS<h1>"
 
