@@ -1,9 +1,9 @@
 # samiyaa
 
-#This flask api is deployed on Heroku.
-*Heroku app link : https://samiyaa.herokuapp.com/*
+# This flask api is deployed on Heroku.
+* Heroku app link : https://samiyaa.herokuapp.com/ *
 
-#Guide :
+# Guide :
 This works on following endpoints:
 1) /add/2/2 
 2) /subtract/2/2
