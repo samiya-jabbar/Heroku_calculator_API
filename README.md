@@ -1,5 +1,3 @@
-### samiyaa
-
 # This flask api is deployed on Heroku.
 **Heroku app link : https://samiyaa.herokuapp.com/**
 
