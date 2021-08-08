@@ -1,10 +1,12 @@
 from flask import Flask, jsonify , request
+  
+from flask import Flask,request,render_template
 
 app = Flask(__name__)
 
 @app.route('/')
-def hello():
-    return "<h1>WELCOME TO THE WORLD OF MATHEMATICS<h1>"
+def hello_world():
+    return render_template("test.html")
 
 @app.route('/add/<int:usernumber1>/<int:usernumber2>')
 def add(usernumber1, usernumber2):
